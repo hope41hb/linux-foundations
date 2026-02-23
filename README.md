@@ -7,9 +7,9 @@ e.g. /Users/apple
 cd: means change directory meaning go to another directory somewhere on the system.
 e.g. cd Downloads/ ----> (base) apple@yousongpingdeMacBook-Air Downloads %
 
-Go back to the home directory:  1. cd /Users/apple
-                                2.cd ~
-                                3.cd
+Go back to the home directory:  1. cd /Users/apple <br>
+                                2.cd ~ <br>
+                                3.cd <br>
 
 Clear the screen: type “clear”
 
@@ -42,9 +42,9 @@ sudo: Execute the following commands with administrator (root) privileges.
 echo, printf: print
 
 printf “1\n2\n3”
-1
-2
-3
+1 <br>
+2 <br>
+3 <br>
 
 head file2.txt ( print file2.txt first 10 line)
 
@@ -54,12 +54,12 @@ tail file2.txt( print file2 last 10 line )
 
 ls -l (Use "detailed format" to start the file information in the current directory.)
 
-Chmod: Used to modify file or directory permissions
-755: I can modify it myself, but others can only read and execute it.
-644: I can edit it myself, but others can only read it.
-700: Only I can access
-600: Only I can read and write
-777: Full control for everyone
+Chmod: Used to modify file or directory permissions <br>
+755: I can modify it myself, but others can only read and execute it. <br>
+644: I can edit it myself, but others can only read it. <br>
+700: Only I can access <br>
+600: Only I can read and write <br>
+777: Full control for everyone <br>
 
 history: View the history of commands you have entered in the terminal.
 
@@ -67,25 +67,25 @@ history: View the history of commands you have entered in the terminal.
 
 !! (Represents the previous command)
 
-The most common scenarios:
+The most common scenarios: <br>
 If I forgot to add “sudo” before “apt update”, I don’t need to input it again, directly input 
 “sudo !!”, terminal will automatically expand into “sudo apt update”
 
-apt: Advanced Package Tool(Commands used to install, update, and uninstall software.)
-E.g. 1. sudo apt install nmap (install)
-     2. sudo apt remove nmap (remove)  
-     3. sudo apt upgrade
-update: Check if there is a new version. Only the "information database" is updated; the software on the computer will not be modified.
-upgrade: Based on the new version information from the recent update, upgrade the installed software.
+apt: Advanced Package Tool(Commands used to install, update, and uninstall software.) <br>
+E.g. 1. sudo apt install nmap (install) <br>
+     2. sudo apt remove nmap (remove) <br>
+     3. sudo apt upgrade <br>
+update: Check if there is a new version. Only the "information database" is updated; the software on the computer will not be modified.<br>
+upgrade: Based on the new version information from the recent update, upgrade the installed software.<br>
 
-ping: Whether the computer can "connect" to the target host, and what the network latency is. 
-e.g: ping google.com (N) (search DNS -->get IP-->ping IP)
-       ping 8.8.8.8 (Y) (Test the Internet)
+ping: Whether the computer can "connect" to the target host, and what the network latency is. <br>
+e.g: ping google.com (N) (search DNS -->get IP-->ping IP)<br>
+       ping 8.8.8.8 (Y) (Test the Internet)<br>
 The DNS resolution is faulty, not the network is down.
 
-wget: URL
-wget https://example.com/file.zip
-Download files directly to your local machine from a URL (HTTP / HTTPS / FTP).
+wget: URL<br>
+wget https://example.com/file.zip<br>
+Download files directly to your local machine from a URL (HTTP / HTTPS / FTP).<br>
 
 cal: calendar
 
