@@ -1,5 +1,5 @@
 # linux-foundations
-Beginner to the Linux Terminal
+## Beginner to the Linux Terminal
 
 pwd: open up the terminal and tells us what directory we are in.
 e.g. /Users/apple
@@ -73,8 +73,8 @@ If I forgot to add “sudo” before “apt update”, I don’t need to input i
 
 apt: Advanced Package Tool(Commands used to install, update, and uninstall software.)
 E.g. 1. sudo apt install nmap (install)
-       2. sudo apt remove nmap (remove)  
-       3. sudo apt upgrade
+     2. sudo apt remove nmap (remove)  
+     3. sudo apt upgrade
 update: Check if there is a new version. Only the "information database" is updated; the software on the computer will not be modified.
 upgrade: Based on the new version information from the recent update, upgrade the installed software.
 
